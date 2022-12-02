@@ -1,0 +1,46 @@
+.LeftSortingBar {
+  max-width: 152px;
+  width: 40vw;
+  height: 1028px;
+  left: 225px;
+  top: 87px;
+  background: #bdbdbd;
+  padding: 35px 0 0 20px;
+  @media (max-width: 440px) {
+    max-width: 30vw;
+    padding: 35px 10px 0 10px;
+  }
+  > h6 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+  > button {
+    background: #4b51ef;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    transition: 300ms;
+    &:hover {
+      background: #3337ab;
+    }
+    &:active {
+      background: #1c23f0;
+      transition: 100ms;
+    }
+    &:nth-child(2) {
+      margin: 10px 0;
+    }
+    @media (max-width: 440px) {
+      padding: 5px 5px;
+    }
+  }
+}
